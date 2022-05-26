@@ -1,0 +1,366 @@
+/*Import Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans&display=swap');
+
+
+
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+#login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  text-align: center;
+  background-image: url(http://localhost:3000/static/media/bg1.c9a0d9e1.jpg);
+  background-size: cover;
+}
+
+#loginD{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  text-align: center;
+  background-image: url(http://localhost:3000/static/media/bg1.c9a0d9e1.jpg);
+  background-size: cover;
+}
+
+.default-bg{
+  background: red;
+  color: #ffffff;
+}
+
+.login-box{
+  width: 960px;
+  margin: 0 auto;
+  box-shadow: 0 0 35px rgba(0,0,0,.4);
+  border-radius: 10px;
+}
+
+.bg-img-pat{
+  padding: 0;
+  border-radius: 10px 0 0 10px;
+  background: rgba(0,0,0,0.04) url(http://localhost:3000/static/media/patient.43562560.png) top left repeat;
+  background-position: -10px 450px;
+  background-size: cover;
+  top: 0;
+  bottom: 0;
+  opacity: 1;
+}
+
+.bg-img-doc{
+  padding: 0;
+  border-radius: 10px 0 0 10px;
+  background: rgba(0,0,0,0.04) url(http://localhost:3000/static/media/doctor.094eb32f.png) top left repeat;
+  background-position: 430px 450px;
+  background-size: cover;
+  top: 0;
+  bottom: 0;
+  opacity: 1;
+}
+
+.info{
+  height: 450px;
+  position: relative;
+}
+
+.logo{
+  text-align: left;
+  margin: 20px;
+}
+
+.nav-brand{
+  font-size: 22px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.btn-section{
+  position: absolute;
+  top: 40%;
+  right: 0px;
+  margin-bottom: 0;
+}
+
+.link-btn{
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.link-btn:active{
+  background-color: red;
+  color: #ffffff;
+}
+
+.btn-danger{
+  text-align: center;
+  line-height: 30px;
+  width: 110px;
+  text-transform: uppercase;
+  border-radius: 50px 0 0 50px;
+  margin-bottom: 15px;
+  border: none;
+}
+
+.btn-primary:focus{
+  outline: none;
+  box-shadow: none;
+}
+
+
+
+/* login form styling*/
+
+.form-section{
+  text-align: center;
+  width: 400px;
+  margin: 0 auto;
+  width: 65%;
+  overflow: hidden;
+}
+
+.title{
+  margin: 10px 0 50px 0;
+}
+
+.h3{
+  font-size: 25px;
+  font-weight: bold;
+  color: red;
+}
+
+.login-inner{
+  position: relative;
+  color: #979797;
+}
+
+
+.form-box{
+  float: right;
+  width: 100%;
+  position: relative;
+}
+
+/*Style input text box*/
+
+.input-text{
+  font-size: 14px;
+  outline: none;
+  color: #616161;
+  border-radius: 50px;
+  border-radius: 50px;
+  border: 1px solid transparent;
+  background: #ffffff;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  padding: 11px 45px 11px 20px;
+  width: 65%;
+  margin-bottom: 10px;;
+}
+
+.primary-btn{
+  background: red;
+  width: 65%;
+  border: none;
+  color: #ffffff;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  padding: 10px 30px 9px 30px;
+  height: 45px;
+  border-radius: 50px;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: linear-gradient(135deg, #FF7272, red);
+}
+
+.primary-btn:hover{
+  background: red;
+}
+
+/*Font awesome icons*/
+
+
+.icon{
+  position: absolute;
+  right: 120px;
+  top: 10px;
+}
+
+
+.icon.email::before{
+  font-family: "Font Awesome 5 Free";
+  content: "\f0e0";
+}
+
+.icon.lock::before{
+  font-family: "Font Awesome 5 Free";
+  font-weight: bold;
+  content: "\f023";
+}
+
+
+/* Home Page Styling */
+
+.home .content h1{
+  font-size: 5rem;
+  color: black;
+}
+
+.home .content h1 span{
+  color: red;
+
+}
+
+.home .content h3{
+  font-size: 2rem;
+  color: black;
+}
+
+.about{
+  background: #eee;
+
+}
+
+.about .content .box{
+  margin: 3rem 0;
+}
+
+.about .content .box h3{
+  font-size: 2rem;
+  color: black;
+}
+
+.about .content .box h3 i{
+  padding: 0 1rem;
+  color: red;
+}
+
+.about .content .box p{
+  font-size: 1.1rem;
+  padding-left: 6rem;
+  color: #666;
+}
+
+.home-active{
+  background: #fff;
+  box-shadow: 0 .1rem .3rem rgba(0,0,0,.3);
+  padding: .5rem 1rem;
+}
+
+/* Post */
+
+.post .box-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.post .box-container .box{
+  width: 30rem;
+  margin: 2rem 1rem;
+  overflow: hidden;
+  border-radius: .5rem;
+  box-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
+}
+
+.post .box-container .box img{
+  height:20rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.post .box-container .box .content{
+  padding:0 1.5rem;
+}
+
+.post .box-container .box .content span{
+  color:#666;
+  font-size: 1.5rem;
+  display: block;
+  padding:1rem 0;
+}
+
+.post .box-container .box .content h3{
+  font-size: 2rem;
+  color: black;
+}
+
+.post .box-container .box .content:hover h3{
+  color: black;
+}
+
+.post .box-container .box .content p{
+  font-size: 1.3rem;
+  color: black;
+}
+
+/* Footer */
+
+.footer{
+  background-color: #333333;
+}
+
+.footer p{
+  font-size: 1.5rem;
+  color:#eee;
+  padding:1rem 0;
+}
+
+.footer .col{
+  padding:1.3rem
+}
+
+.footer .col:nth-child(1) a{
+  font-size: 3rem;
+  color:#fff;
+}
+
+.footer .col:nth-child(1) a span{
+  color: red;
+}
+
+.footer a{
+  font-size: 2rem;
+  color:#ccc;
+  display: block;
+}
+
+.footer h3{
+  color:#fff;
+  font-size: 3rem;
+}
+
+.footer a:hover{
+  color: red;
+}
+
+.footer .credit{
+  color:#fff;
+  width:80%;
+  margin:0;
+  padding:2rem 0;
+  padding-bottom: 4rem;
+  border-top: .1rem solid #ccc !important;
+}
+
+.footer .credit span{
+  color: red;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+i{
+  color: red;
+  padding: 0 1rem;
+}
+
+

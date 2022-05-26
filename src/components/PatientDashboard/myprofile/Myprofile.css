@@ -1,0 +1,52 @@
+.main-profilepatient {
+  padding: 15px;
+  margin: 1% 0 0 1%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidebarpatient {
+  background-color: #e75e4c;
+  color: white;
+  height: auto;
+  width: auto;
+}
+
+.sidebarpatient a {
+  margin-left: 10px;
+  display: flex;
+  color: white;
+  padding-bottom: 10px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.cardpatient {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.contentpatient {
+  background-color: whitesmoke;
+}
+
+.reviewspatient {
+  margin-bottom: 50px;
+}
+
+.button {
+  margin: 1%;
+  border-radius: 20px;
+}
+
+.text-mainpatient {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  color: #000;
+}
+
+.infopatient {
+  margin: 1rem;
+}
