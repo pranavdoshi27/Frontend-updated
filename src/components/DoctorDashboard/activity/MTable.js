@@ -208,7 +208,15 @@ function MTable(props) {
                 </TableCell>
                 <TableCell>
                   <Typography color="primary" variant="subtitle2">
-                    <div className="btn btn-success">Change Status</div>
+                    <div
+                      className="btn btn-success"
+                      onClick={(e) => {
+                        e.preventDefault();
+                        props.onClickChangeStatusHandler(row.id);
+                      }}
+                    >
+                      Change Status
+                    </div>
                   </Typography>
                 </TableCell>
               </TableRow>

@@ -20,7 +20,11 @@ const Myprofile = (props) => {
                   <img
                     className="rounded-circle"
                     width="150"
-                    src={img}
+                    src={
+                      props.doctorData.imageCover !== "dummy.jpg"
+                        ? props.doctorData.imageCover
+                        : img
+                    }
                     alt=""
                   />
                   <div className="mt-3">
